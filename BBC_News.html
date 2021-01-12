@@ -1,0 +1,425 @@
+<html>
+	<head>
+		<title>Technology-BBC News</title>
+		<style type="text/css"> 
+	        
+			#topbar{
+			    width:1000px;
+				margin:0 auto;
+				height:40px;
+			}
+			
+			body {
+			    margin:0;
+				padding:0;
+				font-family:Helmet, Freesans, Helvetica, Arial, sans-serif;
+			}
+			
+			#logo{
+			    margin-top:8px;
+				width:95px;
+				float:left;
+				margin-right:8px;
+			}
+			
+			.topbar-section {
+			    float:left;
+				border-left:1px #cccccc solid;
+				height:100%;
+			}
+			
+			.topbar-section a {
+			    color:#330000;
+				text-decoration:none;
+			
+			}
+            
+			#signin-text {
+			    font-weight:bold;
+				font-size:90%;
+				position:relative;
+				top:14px;
+				left:8px;
+				padding-right:50px;
+			}
+			
+			#wiggly-line {
+				float:left;
+				height:40px;
+			}
+			
+			#news {
+				font-size:90%;
+				position:relative;
+				top:14px;
+				left:14px;
+				padding-right:28px;	
+			}
+			
+			#search-box {
+			    background-color:#E4E4E4;
+				border:none;
+				height:24px;
+				width:170px;
+				font-size:18px;
+				padding:5px;
+				margin:8px 0 8px 8px;
+				float:left;
+			}
+			
+			#searchbar-image {
+			    background-color:#E4E4E4;
+				height:24px;
+				margin-top:8px;
+			}
+			
+			.clear{
+			    clear:both;
+			}
+			
+			#menu-bar-container {
+			    background-color:#BB1919;
+				border-top:1px solid #CCCCCC;
+				margin:0 auto;
+				padding:0;
+				height:62px;
+			}
+			
+			#title-bar {
+			    width:1000px;
+				margin:0 auto;
+			}
+			
+			h1 {
+			    padding:0;
+				margin:0;
+				font-weight:normal;
+				padding-top:6px;
+				font-size:40px;
+			}
+			
+			#news-link a {
+				text-decoration:none;
+				color:white;
+			}
+			
+			#local-news {
+			    border:2px #BB4545 solid;
+				width:188px;
+				float:right;
+				padding:5px 5px 0 8px;
+				margin:-40px 60px 0 0;
+			}
+			
+			#location-image {
+			    height:23px;
+			}
+			
+			#local-news a {
+			    color:white;
+				text-decoration:none;
+				font-size:23px;
+			}
+			
+			#local-news a:hover {
+			    text-decoration:underline;
+			}
+			
+			#menu-bar2-container {
+			    background-color:#A91717;
+				margin:0 auto;
+				padding:0;
+				height:31px;
+			}
+			
+			#menu-bar {
+			    width:1000px;
+				margin:0 auto;
+			}
+			
+			#menu-bar a {
+			    color:white;
+				text-decoration:none;
+				padding:0 10px;
+				border-right:1px solid #BB4545;
+				font-size:15px;
+				position:relative;
+				top:8px;
+			}
+			
+			#menu-bar a:hover {
+			    text-decoration:underline;
+			}
+			
+			.no-border {
+			    border:none !important;
+			}
+			
+			#arrow-image {
+			    height:7px;
+			}
+			
+			#main-container {
+			    width:1050px;
+				margin:0 auto;
+				padding:0;
+			}
+			
+			#main-article {
+			    float:left;
+			    width:680px;
+				height:750px;
+				border-right:1px solid #CCCCCC;
+				padding-right:20px;
+			}
+			
+			#main-article a {
+				text-decoration:none;
+			}
+			
+			h2 {
+			    color:#404040;
+				font-size:20px;
+				margin:0;
+				border-bottom:3px solid #bb1919;
+				padding-top:8px;
+				width:100px;
+			}
+			
+			h3 a {
+			    color:#5a5a5a;
+				font-size:35px;
+			}
+			
+			h3 a:hover {
+			    color:#1167a8;
+			}
+			
+			#article-summary {
+			    width:245px;
+				float:left;
+				position:relative;
+				top:-15px;
+			}
+			
+			#summary a {
+			    color:#5a5a5a;
+				font-size:93%;
+			}
+			
+			#hours a {
+			    color:#5a5a5a;
+				font-size:95%;
+				padding:0 10px 0 20px;
+				position:relative;
+				top:-5px;
+				border-right:1px solid #CCCCCC;
+				text-decoration:none;
+			}
+			
+			#technology a {
+			    color:#bb1919;
+				font-size:95%;
+				padding:0 10px 0 5px;
+				position:relative;
+				top:-5px;
+			}
+			
+			#technology a:hover {
+			    color:#1167a8;
+			}
+			
+			#article-hr {
+			    width:45px;
+				height:1px;
+				background-color:#bb1919;
+				border:0;
+				margin-left:0;
+				margin-top:-8px;
+			}
+			
+			#links a {
+			    color:#5a5a5a;
+			}
+			
+			#links a:hover {
+			    color:#1167a8;
+			}
+			
+			#article-image {
+			    margin-left:265px;
+				position:relative;
+				top:-6px;
+			}
+			
+			#watch-listen {
+			    position:relative;
+				left:15px;
+				margin:0;
+			}
+			
+			h4 {
+				font-size:25px;
+				color:#404040;
+				position:relative;
+				top:-20px;
+				font-weight:inherit;
+			}
+			
+			#thumbnail {
+			    float:left;
+				padding-right:6px;
+			}
+			
+			#video-container {
+			    position:relative;
+				top:-37px;
+			}
+			
+			#video-link a{
+			    text-decoration:none;
+				font-weight:bold;
+				color:black;
+			}
+			
+			#video-link a:hover {
+			    color:#1167a8;
+			}
+			
+			#timing a {
+			    color:#5a5a5a;
+				font-size:95%;
+				padding:0 10px 0 20px;
+				position:relative;
+				top:-8px;
+				left:-30px;
+				text-decoration:none;
+			}
+			#stream a {
+			    color:#bb1919;
+				font-size:95%;
+				text-decoration:none;
+				position:relative;
+				right:-120px;
+				top:-20px;
+			}	
+			
+			#stream a:hover {
+			    color:#1167a8;
+			}
+	    </style>
+	</head>
+	<body>
+	
+	    <div id="topbar">
+		    <!-- 1. this division for topbar indication of webpage in which BBC logo , Sign in option, News , Sports and Weather ..etc options are present-->
+     		<a href="http://www.bbc.co.uk/"><img id="logo" src="https://www.completewebdevelopercourse.com/clone/index_files/bbc-blocks-dark.png"></a>
+			<div class="topbar-section">
+			    <span id="signin-text"><a href="http://ssl.bbc.co.uk/id/signin?ptrt=http%3A%2F%2Fwww.bbc.co.uk%2Fnews%2Ftechnology">Sign in</a></span>
+			</div>   
+			<img id="wiggly-line" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\wiggly_line.png">
+			<a href="http://www.bbc.co.uk/news/technology#"><img id="wiggly-line" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\bell_div.png"></a>
+			<div class="topbar-section">
+			    <span id="news"><a href="http://www.bbc.co.uk/news/">News</a></span>
+			</div>
+			<div class="topbar-section">
+			    <span id="news"><a href="http://www.bbc.co.uk/sport/">Sport</a></span>
+			</div>
+			<div class="topbar-section">
+			    <span id="news"><a href="http://www.bbc.co.uk/weather/">Weather</a></span>
+			</div>
+			<div class="topbar-section">
+			    <span id="news"><a href="http://www.bbc.co.uk/iplayer/">iPlayer</a></span>
+			</div>
+			<div class="topbar-section">
+			    <span id="news"><a href="http://www.bbc.co.uk/tv/">TV</a></span>
+			</div>
+			<div class="topbar-section">
+			    <span id="news"><a href="http://www.bbc.co.uk/radio/">Radio</a></span>
+			</div>
+			<div class="topbar-section">
+			    <span id="news"><a href="http://www.bbc.co.uk/news/technology#orb-footer">More</a></span>
+			</div>
+			<div class="topbar-section">
+			    <input id="search-box" type="text" placeholder="search" width="50px">
+				<input type="image" id="searchbar-image" src="https://www.completewebdevelopercourse.com/clone/index_files/orb-search-dark.png">
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="menu-bar-container">
+            <!-- 2. this devision for the content in the light red strip section-->
+		    <div id="title-bar">
+			    <div id="news-link"><a href="https://www.bbc.com/news"><h1>News</h1></a></div>
+				<div id="local-news">
+				    <a href="https://www.bbc.com/future">Find local news <img id="location-image" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\location-mark.png"></a>
+				</div>	
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="menu-bar2-container">
+		    <!-- 3. this section to make dark red section and it's content in the webpage-->
+		    <div id="menu-bar">
+			    <a href="http://www.bbc.co.uk/news">Home</a>
+			    <a href="http://www.bbc.co.uk/news/uk">UK</a>
+				<a href="http://www.bbc.co.uk/news/world">World</a>
+				<a href="http://www.bbc.co.uk/news/business">Business</a>
+				<a href="http://www.bbc.co.uk/news/politics">Politics</a>
+				<a href="https://www.completewebdevelopercourse.com/clone/index_files/index.html">Tech</a>
+				<a href="http://www.bbc.co.uk/news/science_and_environment">Science</a>
+				<a href="http://www.bbc.co.uk/news/health">Health</a>
+				<a href="http://www.bbc.co.uk/news/education">Education</a>
+				<a href="http://www.bbc.co.uk/news/entertainment_and_arts">Entertainment & Arts</a>
+				<a href="http://www.bbc.co.uk/news/video_and_audio/video">Video & Audio</a>
+				<a href="https://www.naughtyamerica.com/" class="no-border">More <img id="arrow-image" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\more-sign.png"></a>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="main-container">
+		    <!-- 4. this section covers whole remaining section of page.In this section main article , video , readable content of page are present.-->
+		    <h2>Technolgy</h2>
+		    <div id="main-article">
+				<h3><a href="http://www.bbc.co.uk/news/technology-35350789">Asda bug exposed payment details</a></h3>
+			   <div id="article-summary">
+				    <p id="summary"><a href="http://www.bbc.co.uk/news/technology-35350789">Security vulnerabilities that put customers at risk have affected Asda's website for a couple of years, a security expert has revealed.</a></p>
+				    <p><span id="hours"><a href="http://www.bbc.co.uk/news/technology-35350789">2 hours ago</a></span> <span id="technology"><a href="https://www.completewebdevelopercourse.com/clone/index_files/index.html">Technolgy</a></span></p>
+                    <hr id="article-hr">
+				    <div id="links">
+				       <p><a href="http://www.bbc.co.uk/news/technology-33409594">Surveillance firm hit in hack attack</a></p>
+					    <p><a href="http://www.bbc.co.uk/news/technology-29279213">eBay flaw has existed for months</a></p>
+				    </div>
+                </div>
+			    <div id="article-image">
+				    <a href="http://www.bbc.co.uk/news/technology-35350789"><img src="https://www.completewebdevelopercourse.com/clone/index_files/_87784717_asda.gif"></a>
+				</div>
+				<hr>
+			</div>
+			<div id="watch-listen">
+			    <h4>Watch/Listen</h4>
+				<div id="video-container">
+					<a href="http://www.bbc.co.uk/programmes/p03fyd3z"><img id="thumbnail" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\video_image.png"></a>
+					<p id="video-link"><a href="http://www.bbc.co.uk/programmes/p03fyd3z">UK science chief backs blockchains </p>
+				    <p id="timing"><a href="http://www.bbc.co.uk/programmes/p03fyd3z">1 hours ago</a></p>
+				</div>
+				<div id="video-container">
+					<a href="http://www.bbc.co.uk/news/technology-35302125"><img id="thumbnail" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\video_image_2.png"></a>
+					<p id="video-link"><a href="http://www.bbc.co.uk/news/technology-35302125">Drone register gives 'accountability'</p>
+					<p id="timing"><a href="http://www.bbc.co.uk/news/technology-35302125">18 January 2016</a></p>
+					<span id="stream"><a href="http://www.bbc.co.uk/news/technology-35302125">Technolgy</a></span>
+				</div>
+				<div id="video-container">
+					<a href="http://www.bbc.co.uk/news/science-environment-35340734"><img id="thumbnail" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\video_image_3.png"></a>
+					<p id="video-link"><a href="http://www.bbc.co.uk/programmes/p03fyd3z">SpaceX rocket explodes during landing</p>
+				    <p id="timing"><a href="http://www.bbc.co.uk/news/technology-35302125">18 January 2016</a></p>
+					<span id="stream"><a href="http://www.bbc.co.uk/news/technology-35302125">Science & Environment</a></span>
+				</div>
+				<div id="video-container">
+					<a href="http://www.bbc.co.uk/news/technology-35328636"><img id="thumbnail" src="C:\Users\nishu\Desktop\web devlelopent\2-css\images\video_image_4.png"></a>
+					<p id="video-link"><a href="http://www.bbc.co.uk/news/technology-35328636">What is a VPN service?</p>
+				    <p id="timing"><a href="http://www.bbc.co.uk/news/technology-35302125">18 January 2016</a></p>
+					<span id="stream"><a href="http://www.bbc.co.uk/news/technology-35302125">Technolgy</a></span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
